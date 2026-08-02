@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영어 낱말카드</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+        :root {
+            --primary: #360F5A;
+            --bg: #11041D;
+            --accent: #A64B3D;
+            --btn: #EBD8F7;
+            --btn-hover: #D4B6E6;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--primary), var(--bg));
+            color: white;
+            font-family: 'Noto Sans KR', sans-serif;
+            display: flex; flex-direction: column; align-items: center;
+            min-height: 100vh; margin: 0; padding: 20px; box-sizing: border-box;
+        }
+        h1 { margin-bottom: 10px; text-align: center; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .subtitle { font-size: 1.1em; margin-bottom: 15px; opacity: 0.9; text-align: center; }
+
+        /* 진행 막대 */
+        .progress-wrap { width: 100%; max-width: 550px; height: 6px; background: rgba(255,255,255,0.2); border-radius: 4px; margin-bottom: 12px; overflow: hidden; }
+        .progress-bar { height: 100%; width: 0%; background: var(--btn); border-radius: 4px; transition: width 0.3s; }
+
+        .status { font-size: 1.2em; margin-bottom: 15px; opacity: 0.9; font-weight: bold; }
+
+        .card-container { perspective: 1000px; width: 100%; max-width: 550px; height: 340px; margin-bottom: 20px; }
+        .card { width: 100%; height: 100%; transition: transform 0.6s cubic-bezier(0.4,0.2,0.2,1); transform-style: preserve-3d; cursor: pointer; position: relative; }
+        .card.flipped { transform: rotateY(180deg); }
+        .card-face {
+            position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            background: #FDFBF7; color: #2b2b2b; border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4); padding: 30px; box-sizing: border-box; text-align: center;
+        }
+        .card-back { transform: rotateY(180deg); background: #F4EFE6; }
+        .flip-hint { position: absolute; bottom: 12px; right: 16px; font-size: 0.8em; color: #999; font-style: normal; }
+
+        .word { font-size: 2.6em; font-weight: bold; margin-bottom: 10px; color: var(--primary); }
+        .part { font-size: 1.2em; color: #666; font-style: italic; margin-bottom: 15px; }
+        .meaning { font-size: 1.8em; font-weight: bold; margin-bottom: 20px; color: var(--accent); }
+        .example { font-size: 1.1em; color: #333; margin-bottom: 10px; font-style: italic; line-height: 1.5; }
+
+        .controls { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 650px; margin-bottom: 12px; }
+        button {
+            background-color: var(--btn); color: var(--primary); border: none; padding: 12px 20px;
+            border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 1em;
+            transition: background-color 0.3s, transform 0.1s; box-shadow: 0 4px 6px rgba(0,0,0,0.3); font-family: inherit;
+        }
+        button:hover { background-color: var(--btn-hover); }
+        button:active { transform: scale(0.96); }
+        button.toggle-off { background-color: #9E8FB0; color: #eee; }
+
+        .options-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: center; margin-bottom: 8px; }
+        .voice-select { padding: 8px 10px; border-radius: 8px; border: none; font-family: inherit; font-size: 0.9em; max-width: 220px; }
+
+        .instructions { font-size: 0.9em; opacity: 0.8; text-align: center; margin-top: 6px; line-height: 1.4; }
+        .logo { margin-top: 30px; font-size: 1.2em; font-weight: bold; letter-spacing: 2px; color: var(--btn); opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+    <h1 id="title">영어 낱말카드</h1>
+    <div class="subtitle" id="subtitle"></div>
+
+    <div class="progress-wrap"><div class="progress-bar" id="progress"></div></div>
+    <div class="status" id="status">1 / 1</div>
+
+    <div class="card-container" onclick="flipCard()">
+        <div class="card" id="flashcard">
+            <div class="card-face card-front" id="card-front"></div>
+            <div class="card-face card-back" id="card-back"></div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button onclick="prevCard()">◀ 이전</button>
+        <button onclick="nextCard()">다음 ▶</button>
+        <button onclick="flipCard()">카드 뒤집기</button>
+        <button onclick="speakCard()">🔊 발음 듣기</button>
+        <button onclick="shuffleCards()">🔀 셔플</button>
+        <button onclick="toggleMode()">🌐 한/영 모드 전환</button>
+        <button onclick="editCurrentCard()">✏️ 현재 카드 수정</button>
+        <button onclick="resetAll()" title="편집·순서를 원본으로 되돌립니다">🔄 초기화</button>
+    </div>
+
+    <div class="options-row">
+        <label style="font-size:0.9em; opacity:0.85;">🎧 음성:
+            <select id="voice-select" class="voice-select" onchange="onVoiceChange()"></select>
+        </label>
+    </div>
+
+    <div class="instructions">
+        키보드: [←] 이전 · [→] 다음 · [Space] 뒤집기 · [S] 발음 듣기<br>
+        수정한 내용과 카드 위치는 자동 저장되어, 다시 열어도 이어서 볼 수 있어요.
+    </div>
+
+    <div class="logo" id="brand">SueSooEnglish</div>
+
+    <script src="data.js"></script>
+    <script>
+        /* ================= 설정/데이터 로드 (범용) ================= */
+        const CFG = window.VOCAB_DATA || { title:"낱말카드", subtitle:"", brand:"", theme:{}, words:[] };
+        const STORE_KEY = "flashcards::" + (CFG.title || "default");
+
+        // 테마 적용
+        (function applyTheme(){
+            const t = CFG.theme || {};
+            const r = document.documentElement.style;
+            if (t.primary)     r.setProperty('--primary', t.primary);
+            if (t.bg)          r.setProperty('--bg', t.bg);
+            if (t.accent)      r.setProperty('--accent', t.accent);
+            if (t.button)      r.setProperty('--btn', t.button);
+            if (t.buttonHover) r.setProperty('--btn-hover', t.buttonHover);
+        })();
+        document.getElementById('title').textContent = CFG.title || "영어 낱말카드";
+        document.getElementById('subtitle').textContent = CFG.subtitle || "";
+        document.getElementById('brand').textContent = CFG.brand || "";
+        document.title = (CFG.title || "낱말카드") + " 영어 낱말카드";
+
+        /* ================= 개선 #2: 저장/복원 ================= */
+        function loadState() {
+            try {
+                const raw = localStorage.getItem(STORE_KEY);
+                if (raw) {
+                    const s = JSON.parse(raw);
+                    if (Array.isArray(s.cards) && s.cards.length) return s;
+                }
+            } catch(e){}
+            return null;
+        }
+        function saveState() {
+            try {
+                localStorage.setItem(STORE_KEY, JSON.stringify({
+                    cards, currentIndex, isEnglishMode
+                }));
+            } catch(e){}
+        }
+
+        const saved = loadState();
+        let cards = saved ? saved.cards : (CFG.words || []).map(w => ({...w}));
+        let currentIndex = saved ? Math.min(saved.currentIndex || 0, cards.length - 1) : 0;
+        let isEnglishMode = saved ? saved.isEnglishMode : true;
+
+        const cardElement  = document.getElementById('flashcard');
+        const frontElement = document.getElementById('card-front');
+        const backElement  = document.getElementById('card-back');
+        const statusElement= document.getElementById('status');
+        const progressBar  = document.getElementById('progress');
+
+        function updateCardDisplay() {
+            if (!cards.length) { frontElement.innerHTML = "<div class='word'>데이터가 없습니다</div>"; return; }
+            const card = cards[currentIndex];
+            statusElement.innerText = `${currentIndex + 1} / ${cards.length}`;
+            progressBar.style.width = ((currentIndex + 1) / cards.length * 100) + "%";
+            cardElement.classList.remove('flipped');
+
+            setTimeout(() => {
+                const hint = `<div class="flip-hint">클릭하여 뒤집기 ⟲</div>`;
+                if (isEnglishMode) {
+                    frontElement.innerHTML = `<div class="word">${card.word}</div><div class="part">[${card.part}]</div>${hint}`;
+                    backElement.innerHTML  = `<div class="meaning">${card.meaning}</div><div class="example">"${card.example}"</div>${hint}`;
+                } else {
+                    frontElement.innerHTML = `<div class="meaning" style="color:var(--primary);">${card.meaning}</div><div class="part">[${card.part}]</div>${hint}`;
+                    backElement.innerHTML  = `<div class="word">${card.word}</div><div class="example">"${card.example}"</div>${hint}`;
+                }
+            }, 150);
+            saveState();
+        }
+
+        function flipCard() { cardElement.classList.toggle('flipped'); }
+        function nextCard() { currentIndex = (currentIndex + 1) % cards.length; updateCardDisplay(); }
+        function prevCard() { currentIndex = (currentIndex - 1 + cards.length) % cards.length; updateCardDisplay(); }
+
+        function shuffleCards() {
+            for (let i = cards.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [cards[i], cards[j]] = [cards[j], cards[i]];
+            }
+            currentIndex = 0;
+            updateCardDisplay();
+        }
+
+        function toggleMode() { isEnglishMode = !isEnglishMode; updateCardDisplay(); }
+
+        function resetAll() {
+            if (!confirm("편집·순서를 모두 원본으로 되돌릴까요?")) return;
+            localStorage.removeItem(STORE_KEY);
+            cards = (CFG.words || []).map(w => ({...w}));
+            currentIndex = 0; isEnglishMode = true;
+            updateCardDisplay();
+        }
+
+        /* ================= 개선 #5: TTS 음성 선택 ================= */
+        let voices = [];
+        function populateVoices() {
+            if (!('speechSynthesis' in window)) return;
+            voices = window.speechSynthesis.getVoices();
+            const sel = document.getElementById('voice-select');
+            const enVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('en'));
+            sel.innerHTML = "";
+            const auto = document.createElement('option');
+            auto.value = "__auto__"; auto.textContent = "자동 (권장)";
+            sel.appendChild(auto);
+            enVoices.forEach(v => {
+                const o = document.createElement('option');
+                o.value = v.name; o.textContent = `${v.name} (${v.lang})`;
+                sel.appendChild(o);
+            });
+            const savedVoice = localStorage.getItem('flashcards::voice');
+            if (savedVoice) sel.value = savedVoice;
+        }
+        function onVoiceChange() { localStorage.setItem('flashcards::voice', document.getElementById('voice-select').value); }
+        function pickEnglishVoice() {
+            const chosen = document.getElementById('voice-select').value;
+            if (chosen && chosen !== "__auto__") {
+                const v = voices.find(x => x.name === chosen);
+                if (v) return v;
+            }
+            // 자동: 자연스러운 en-US 우선순위
+            const prefer = ["Google US English", "Microsoft Aria", "Samantha", "Microsoft Zira"];
+            for (const name of prefer) {
+                const v = voices.find(x => x.name.includes(name));
+                if (v) return v;
+            }
+            return voices.find(v => v.lang && v.lang.toLowerCase() === 'en-us')
+                || voices.find(v => v.lang && v.lang.toLowerCase().startsWith('en'))
+                || null;
+        }
+        if ('speechSynthesis' in window) {
+            populateVoices();
+            window.speechSynthesis.onvoiceschanged = populateVoices;
+        }
+
+        function speakCard() {
+            if (!('speechSynthesis' in window)) { alert("이 브라우저는 음성 합성을 지원하지 않습니다."); return; }
+            window.speechSynthesis.cancel();
+            const card = cards[currentIndex];
+            const isFlipped = cardElement.classList.contains('flipped');
+            let textToSpeak = "", lang = "en-US";
+
+            if (isEnglishMode) {
+                textToSpeak = !isFlipped ? card.word : card.example;
+            } else {
+                if (!isFlipped) { textToSpeak = card.meaning; lang = "ko-KR"; }
+                else            { textToSpeak = card.word + ". " + card.example; }
+            }
+            const u = new SpeechSynthesisUtterance(textToSpeak);
+            u.lang = lang;
+            if (lang === "en-US") { const v = pickEnglishVoice(); if (v) u.voice = v; }
+            window.speechSynthesis.speak(u);
+        }
+
+        /* ================= 카드 수정 (저장됨) ================= */
+        function editCurrentCard() {
+            const card = cards[currentIndex];
+            const newWord = prompt("단어 (Word):", card.word);         if (newWord === null) return;
+            const newPart = prompt("품사 (Part):", card.part);          if (newPart === null) return;
+            const newMeaning = prompt("뜻 (Meaning):", card.meaning);   if (newMeaning === null) return;
+            const newExample = prompt("영어 예문 (Example):", card.example); if (newExample === null) return;
+            cards[currentIndex] = { ...card, word:newWord, part:newPart, meaning:newMeaning, example:newExample };
+            updateCardDisplay();
+        }
+
+        window.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight') nextCard();
+            else if (e.key === 'ArrowLeft') prevCard();
+            else if (e.key === ' ' || e.code === 'Space') { e.preventDefault(); flipCard(); }
+            else if (e.key === 's' || e.key === 'S') speakCard();
+        });
+
+        updateCardDisplay();
+    </script>
+</body>
+</html>
