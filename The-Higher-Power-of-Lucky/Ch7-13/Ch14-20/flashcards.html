@@ -108,7 +108,7 @@
     <script>
         /* ================= 설정/데이터 로드 (범용) ================= */
         const CFG = window.VOCAB_DATA || { title:"낱말카드", subtitle:"", brand:"", theme:{}, words:[] };
-        const STORE_KEY = "flashcards::" + (CFG.title || "default");
+        const STORE_KEY = "flashcards::" + (CFG.title || "default") + "::" + (CFG.subtitle || "");
 
         // 테마 적용
         (function applyTheme(){
