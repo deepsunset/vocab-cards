@@ -1,0 +1,40 @@
+window.VOCAB_DATA = {
+  title:    "Close to Famous",
+  subtitle: "Ch.1 ~ Ch.5",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#4A7C59",
+    bg: "#1B2E20",
+    accent: "#A8D5BA",
+    button: "#E4F2E8",
+    buttonHover: "#D0E8D6"
+  },
+  words: [
+    { word: "impersonator", part: "n.", meaning: "(남을) 흉내 내는 사람, 모방 연기자", example: "...with an Elvis impersonator on our tail.", inflected: "" },
+    { word: "headstrong", part: "adj.", meaning: "고집 센, 막무가내인", example: "...she's driving headstrong through downtown Memphis.", inflected: "" },
+    { word: "swollen", part: "adj.", meaning: "부은, 부어오른", example: "She touches her eye. It looks swollen.", inflected: "" },
+    { word: "landlord", part: "n.", meaning: "집주인, 건물주", example: "...Mr. Clement Purvis, our landlord...", inflected: "" },
+    { word: "mansion", part: "n.", meaning: "대저택", example: "It's an actual mansion...", inflected: "" },
+    { word: "moist", part: "adj.", meaning: "촉촉한", example: "...a pumpkin spice muffin with walnuts that was as moist as anything.", inflected: "" },
+    { word: "lug", part: "v.", meaning: "(무거운 것을) 힘겹게 나르다", example: "I...lugged around huge cartons of eggs.", inflected: "lugged" },
+    { word: "take ~ for granted", part: "phr.", meaning: "~을 당연하게 여기다", example: "Never take a fine muffin for granted.", inflected: "take a fine muffin for granted" },
+    { word: "recess", part: "n.", meaning: "깊숙한 곳 (cf. 쉬는 시간)", example: "It can open doors to the deepest recesses of the human heart.", inflected: "" },
+    { word: "casualty", part: "n.", meaning: "(전쟁·사고의) 사상자", example: "...leaving a place without too many casualties.", inflected: "" },
+    { word: "distinctive", part: "adj.", meaning: "독특한, 눈에 띄는", example: "Mama says I'm distinctive looking.", inflected: "" },
+    { word: "heritage", part: "n.", meaning: "(문화적) 유산, 전통", example: "Look at all this heritage that's part of you.", inflected: "" },
+    { word: "peer", part: "v.", meaning: "유심히 들여다보다", example: "Mama peers through the window.", inflected: "" },
+    { word: "bruise", part: "n.", meaning: "멍", example: "That's a decent bruise you've got there.", inflected: "" },
+    { word: "pry", part: "v.", meaning: "꼬치꼬치 캐묻다", example: "Don't mean to pry, but...", inflected: "" },
+    { word: "deserted", part: "adj.", meaning: "버려진, 인적이 끊긴", example: "...a broken-down factory that looked deserted...", inflected: "" },
+    { word: "glare", part: "v.", meaning: "노려보다", example: "She...glared at the Church of God FOR SALE sign.", inflected: "" },
+    { word: "unearthly", part: "adj.", meaning: "이 세상 것 같지 않은, 섬뜩한", example: "It gives off an unearthly glow.", inflected: "" },
+    { word: "combat", part: "n.", meaning: "전투", example: "Lester nodded. \"Tough combat.\"", inflected: "" },
+    { word: "mumble", part: "v.", meaning: "중얼거리다", example: "\"Didn't happen in West Virginia,\" Mama mumbled.", inflected: "" },
+    { word: "sweet-talk", part: "v.", meaning: "감언이설로 꾀다", example: "He tried to sweet-talk his way back into her heart.", inflected: "" },
+    { word: "belongings", part: "n.", meaning: "소지품, 소유물", example: "...try not to let belongings be too important.", inflected: "" },
+    { word: "snarl", part: "v.", meaning: "으르렁거리듯 말하다", example: "\"We're not done yet,\" Huck snarled.", inflected: "" },
+    { word: "disgrace", part: "n.", meaning: "수치, 망신스러운 일", example: "\"Church of God for sale,\" she snarled. \"It's a disgrace.\"", inflected: "" },
+    { word: "ingredient", part: "n.", meaning: "(요리) 재료", example: "...instant butterscotch pudding, the secret ingredient...", inflected: "" },
+    { word: "gobble", part: "v.", meaning: "게걸스럽게 먹다", example: "...Lester, who gobbled it in two bites.", inflected: "" }
+  ]
+};
