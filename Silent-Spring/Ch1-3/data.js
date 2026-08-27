@@ -1,0 +1,40 @@
+window.VOCAB_DATA = {
+  title:    "Silent Spring",
+  subtitle: "Ch.1 ~ Ch.3",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#2E2E2E",
+    bg: "#0D0D0D",
+    accent: "#B0B0B0",
+    button: "#F0F0F0",
+    buttonHover: "#D9D9D9"
+  },
+  words: [
+    { word: "alter", part: "v.", meaning: "바꾸다, 변형시키다", example: "...acquired significant power to alter the nature of his world.", inflected: "" },
+    { word: "contamination", part: "n.", meaning: "오염", example: "...the contamination of air, earth, rivers, and sea...", inflected: "" },
+    { word: "lethal", part: "adj.", meaning: "치명적인, 죽음을 부르는", example: "...with dangerous and even lethal materials.", inflected: "" },
+    { word: "irreversible", part: "adj.", meaning: "되돌릴 수 없는", example: "...the chain of evil it initiates... is for the most part irreversible.", inflected: "" },
+    { word: "synthetic", part: "adj.", meaning: "합성의, 인공적인", example: "...they are the synthetic creations of man's inventive mind...", inflected: "" },
+    { word: "staggering", part: "adj.", meaning: "믿기 힘들 만큼 엄청난", example: "The figure is staggering and its implications are not easily grasped.", inflected: "" },
+    { word: "immune", part: "adj.", meaning: "면역이 된, 영향받지 않는", example: "...have evolved super races immune to the particular insecticide used...", inflected: "" },
+    { word: "extinction", part: "n.", meaning: "멸종", example: "...the possibility of the extinction of mankind by nuclear war...", inflected: "" },
+    { word: "accumulate", part: "v.", meaning: "축적되다, 쌓이다", example: "...substances that accumulate in the tissues of plants and animals...", inflected: "" },
+    { word: "heredity", part: "n.", meaning: "유전", example: "...shatter or alter the very material of heredity...", inflected: "" },
+    { word: "linger", part: "v.", meaning: "오래 남다, 잔류하다", example: "...to linger on in soil...", inflected: "" },
+    { word: "indiscriminately", part: "adv.", meaning: "무분별하게, 가리지 않고", example: "...chemicals indiscriminately into the hands of persons...", inflected: "" },
+    { word: "prudent", part: "adj.", meaning: "신중한, 조심스러운", example: "...our lack of prudent concern for the integrity of the natural world.", inflected: "" },
+    { word: "ruthless", part: "adj.", meaning: "무자비한", example: "...those engaged in spraying operations exercise a ruthless power.", inflected: "" },
+    { word: "residue", part: "n.", meaning: "잔류물, 남은 찌꺼기", example: "Residues of these chemicals linger in soil...", inflected: "" },
+    { word: "persist", part: "v.", meaning: "계속 남다, 지속되다", example: "...a few of the old materials persist.", inflected: "" },
+    { word: "potency", part: "n.", meaning: "효력, 위력", example: "...their enormous biological potency.", inflected: "" },
+    { word: "soar", part: "v.", meaning: "급증하다, 치솟다", example: "The production of synthetic pesticides in the United States soared...", inflected: "" },
+    { word: "chronic", part: "adj.", meaning: "만성의, 오래 지속되는", example: "Epidemics of chronic arsenical poisoning involving whole populations...", inflected: "" },
+    { word: "cumulative", part: "adj.", meaning: "누적되는", example: "...its deposits build up in the body in cumulative fashion.", inflected: "" },
+    { word: "susceptible", part: "adj.", meaning: "(~에) 취약한, 영향받기 쉬운", example: "...children are more susceptible to poisoning than adults.", inflected: "" },
+    { word: "dormant", part: "adj.", meaning: "잠복해 있는, 활동을 멈춘", example: "...deposits may lie dormant like a slumbering volcano...", inflected: "" },
+    { word: "notorious", part: "adj.", meaning: "악명 높은", example: "It is notorious for striking quickly and with terrible effect...", inflected: "" },
+    { word: "misconception", part: "n.", meaning: "오해, 잘못된 생각", example: "This understandable misconception arises from the fact...", inflected: "" },
+    { word: "hazard", part: "n.", meaning: "위험 (요소)", example: "The chief and most obvious hazard attending their use...", inflected: "" },
+    { word: "carcinogenic", part: "adj.", meaning: "발암성의", example: "...responsible for the carcinogenic (or cancer-causing) action of the soot...", inflected: "" }
+  ]
+};
