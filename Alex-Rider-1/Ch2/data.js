@@ -1,0 +1,40 @@
+window.VOCAB_DATA = {
+  title:    "Alex Rider #1",
+  subtitle: "Ch.2",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#3730A3",
+    bg: "#1E1B4B",
+    accent: "#818CF8",
+    button: "#E0E7FF",
+    buttonHover: "#C7D2FE"
+  },
+  words: [
+    { word: "comprehensive", part: "n.", meaning: "(영국) 공립 종합 중등학교", example: "Brookland was a new comprehensive, red brick and glass, modern and ugly.", inflected: "" },
+    { word: "churn", part: "v.", meaning: "(생각이) 마구 요동치다", example: "How could he possibly think about algebra when there were so many other questions churning through his mind?", inflected: "" },
+    { word: "wreckage", part: "n.", meaning: "잔해", example: "At least the wreckage would tell him that the accident had really happened.", inflected: "" },
+    { word: "dismantler", part: "n.", meaning: "해체업자", example: "Alex had found the yards listed under \"Car Dismantlers\".", inflected: "" },
+    { word: "coincidence", part: "n.", meaning: "우연의 일치", example: "Of course it might just be a coincidence, but it was still somewhere to start.", inflected: "" },
+    { word: "wasteland", part: "n.", meaning: "황무지, 버려진 땅", example: "J.B. Stryker's was a square of wasteland behind the railway tracks.", inflected: "" },
+    { word: "tottering", part: "adj.", meaning: "위태롭게 흔들리는", example: "...a shed with a security window and beyond it the tottering piles of dead and broken cars.", inflected: "" },
+    { word: "carcass", part: "n.", meaning: "잔해, (동물의) 사체", example: "Only the rusting carcasses remained, heaped one on top of the other.", inflected: "" },
+    { word: "battered", part: "adj.", meaning: "낡고 망가진", example: "...a crane coughed into life, then roared down on a battered Ford Mondeo.", inflected: "" },
+    { word: "scoop up", part: "phr.v.", meaning: "퍼올리다, 들어올리다", example: "...its metal claw smashing through the window to scoop up the vehicle.", inflected: "" },
+    { word: "debris", part: "n.", meaning: "파편, 잔해", example: "He found himself surrounded by dirt and debris.", inflected: "" },
+    { word: "deafening", part: "adj.", meaning: "귀청이 터질 듯한", example: "The smell of diesel was thick in the air and the roar of the engines was deafening.", inflected: "" },
+    { word: "topple", part: "v.", meaning: "넘어뜨리다, 쓰러뜨리다", example: "Then the shelves lifted up, toppling the car over and down into a trough.", inflected: "" },
+    { word: "trough", part: "n.", meaning: "구유 모양의 통", example: "...toppling the car over and down into a trough.", inflected: "" },
+    { word: "din", part: "n.", meaning: "소음, 시끄러운 소리", example: "With the din from the machines, there was no chance that anyone would hear him.", inflected: "" },
+    { word: "grimy", part: "adj.", meaning: "때 묻은, 더러운", example: "He stopped to catch his breath, drawing a grimy hand across his face.", inflected: "" },
+    { word: "fatal", part: "adj.", meaning: "치명적인, 목숨을 앗아가는", example: "...there was no way this car could have been involved in a fatal collision with a lorry.", inflected: "" },
+    { word: "strewn", part: "adj.", meaning: "흩뿌려진", example: "The front seats, pale grey leather, were strewn with fragments of broken glass.", inflected: "" },
+    { word: "lull", part: "n.", meaning: "잠시 조용한 때, 소강상태", example: "If there hadn't been a sudden lull, Alex would never have heard the men coming.", inflected: "" },
+    { word: "buckle", part: "v.", meaning: "찌그러지다, 휘어지다", example: "At the same time, the roof buckled and three huge metal fingers tore through the skin of the car.", inflected: "" },
+    { word: "graze", part: "v.", meaning: "스치다, 스쳐서 벗겨지다", example: "One of the fingers grazed the side of his head.", inflected: "" },
+    { word: "lurch", part: "v.", meaning: "울렁거리다, 휘청하다", example: "But his stomach lurched as the car swung in an arc.", inflected: "" },
+    { word: "relentlessly", part: "adv.", meaning: "가차 없이, 끈질기게", example: "The BMW screamed as two walls of solid steel relentlessly crushed it.", inflected: "" },
+    { word: "snag", part: "v.", meaning: "(뾰족한 것에) 걸리다", example: "If his foot snagged on something he would be squeezed into two pieces.", inflected: "snagged" },
+    { word: "gingerly", part: "adv.", meaning: "조심조심, 조심스럽게", example: "...and gingerly, half-hopping, he made for it.", inflected: "" },
+    { word: "lethal", part: "adj.", meaning: "치명적인", example: "The back kick – Ushiro-geri – is said to be the most lethal in karate.", inflected: "" }
+  ]
+};
