@@ -1,0 +1,42 @@
+window.VOCAB_DATA = {
+  title:    "Close to Famous",
+  subtitle: "Ch.11 ~ Ch.15",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#4A7C59",
+    bg: "#1B2E20",
+    accent: "#A8D5BA",
+    button: "#E4F2E8",
+    buttonHover: "#D0E8D6"
+  },
+  words: [
+    { word: "longevity", part: "n.", meaning: "(오래) 지속됨, 장수", example: "\"We can only pray for that longevity.\"", inflected: "" },
+    { word: "stammer", part: "v.", meaning: "말을 더듬다", example: "\"Miss Charleena,\" Macon stammered.", inflected: "" },
+    { word: "sputter", part: "v.", meaning: "(당황해 침 튀기며) 더듬거리다", example: "\"No,\" he sputtered, \"of course not.\"", inflected: "" },
+    { word: "scurry", part: "v.", meaning: "종종걸음으로 급히 가다", example: "Macon scurried like a squirrel.", inflected: "" },
+    { word: "eerie", part: "adj.", meaning: "으스스한, 섬뜩한", example: "\"It was an eerie feeling...\"", inflected: "" },
+    { word: "inmate", part: "n.", meaning: "재소자", example: "\"There's one thousand four hundred and eleven inmates in that place.\"", inflected: "" },
+    { word: "work release", part: "phr.", meaning: "(재소자) 사회 복귀 노역 프로그램", example: "\"Those men are from the prison work release program.\"", inflected: "" },
+    { word: "Realtor", part: "n.", meaning: "(공인) 부동산 중개인", example: "\"The Realtor,\" Garland explained.", inflected: "" },
+    { word: "sacred", part: "adj.", meaning: "신성한", example: "\"They want to put one here on sacred ground.\"", inflected: "" },
+    { word: "rodent", part: "n.", meaning: "설치류 (쥐 등)", example: "\"Did you folks know about the rodent problem?\"", inflected: "" },
+    { word: "pastor", part: "n.", meaning: "목사", example: "\"...my late, great husband, our founding pastor.\"", inflected: "" },
+    { word: "late", part: "adj.", meaning: "고인이 된, 돌아가신", example: "\"...my late, great husband...\"", inflected: "" },
+    { word: "injustice", part: "n.", meaning: "부당함, 불의", example: "\"Exploring injustice. It's a major theme in documentary films.\"", inflected: "" },
+    { word: "accuse", part: "v.", meaning: "(~라고) 고발하다, 몰아붙이다", example: "...they accused him of doing something he didn't do.", inflected: "" },
+    { word: "spiteful", part: "adj.", meaning: "심술궂은, 악의에 찬", example: "...thinking spiteful thoughts about spoiled dogs...", inflected: "" },
+    { word: "riled", part: "adj.", meaning: "잔뜩 성난", example: "\"You want to get me good and riled?\"", inflected: "" },
+    { word: "splotchy", part: "adj.", meaning: "얼룩덜룩한", example: "Wayne's face got pink and splotchy.", inflected: "" },
+    { word: "overhead", part: "n.", meaning: "(가게) 고정 운영비", example: "\"I got overhead, woman!\"", inflected: "" },
+    { word: "the take", part: "n.", meaning: "매출액, 수입", example: "\"Twenty-five percent of the take.\"", inflected: "" },
+    { word: "hives", part: "n.", meaning: "두드러기", example: "\"I've got hives.\"", inflected: "" },
+    { word: "grunt", part: "n.", meaning: "툴툴대는 소리", example: "\"Like a grunt.\"", inflected: "" },
+    { word: "parakeet", part: "n.", meaning: "잉꼬, 작은 앵무새", example: "\"Feed the parakeet from the box of birdseed...\"", inflected: "" },
+    { word: "parmesan", part: "n.", meaning: "파르메산 치즈", example: "...a little bacon or shaved parmesan on top.", inflected: "" },
+    { word: "tarantula", part: "n.", meaning: "타란튤라 (대형 거미)", example: "\"Barry and Larry, take that tarantula outside pronto!\"", inflected: "" },
+    { word: "pronto", part: "adv.", meaning: "당장, 즉시 (구어)", example: "\"...take that tarantula outside pronto!\"", inflected: "" },
+    { word: "britches", part: "n.", meaning: "바지 (남부 구어)", example: "\"Don't get your britches in a bunch.\"", inflected: "" },
+    { word: "stage presence", part: "phr.", meaning: "무대 장악력", example: "I...tried to have stage presence like Mama taught me.", inflected: "" },
+    { word: "breakout role", part: "phr.", meaning: "출세작이 된 배역", example: "\"This was her breakout role.\"", inflected: "" }
+  ]
+};
