@@ -1,0 +1,42 @@
+window.VOCAB_DATA = {
+  title:    "Alex Rider #1",
+  subtitle: "Ch.3-4",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#3730A3",
+    bg: "#1E1B4B",
+    accent: "#818CF8",
+    button: "#E0E7FF",
+    buttonHover: "#C7D2FE"
+  },
+  words: [
+    { word: "expire", part: "v.", meaning: "(기한이) 만료되다", example: "Worse still, her visa was about to expire.", inflected: "" },
+    { word: "swivel", part: "v.", meaning: "회전하다, 돌아가다", example: "...a security camera swivelling slowly over the pavement.", inflected: "swivelling" },
+    { word: "hunched", part: "adj.", meaning: "등을 구부린", example: "...his driver, who was standing uncomfortably, slightly hunched over.", inflected: "" },
+    { word: "severe", part: "adj.", meaning: "수수하고 딱딱한, 엄격한", example: "She was dressed in a severe grey suit and she was sucking a peppermint.", inflected: "" },
+    { word: "conceal", part: "v.", meaning: "숨기다", example: "...it was concealed on the other side of the two-way mirror.", inflected: "" },
+    { word: "pulsating", part: "adj.", meaning: "고동치는, 맥동하는", example: "...turning him into a pulsating mass of different colours.", inflected: "" },
+    { word: "usher", part: "v.", meaning: "안내하다", example: "Crawley smiled and ushered Alex out into a long corridor.", inflected: "" },
+    { word: "punctuate", part: "v.", meaning: "사이사이에 배치되다", example: "A series of doors was punctuated by framed paintings.", inflected: "" },
+    { word: "cloying", part: "adj.", meaning: "느끼하게 단, 물리는", example: "He recognized the over-sweet, slightly cloying taste of supermarket cola.", inflected: "" },
+    { word: "jut out", part: "phr.v.", meaning: "튀어나오다", example: "The pole jutted out of the building exactly halfway between rooms 1504 and 1505.", inflected: "jutted out" },
+    { word: "ledge", part: "n.", meaning: "좁은 선반 모양의 턱", example: "...he should be able to jump on to the ledge that ran along the side of the building.", inflected: "" },
+    { word: "sheer", part: "adj.", meaning: "깎아지른 듯한", example: "It was only the sheer brick wall stretching down to the pavement...", inflected: "" },
+    { word: "miscalculate", part: "v.", meaning: "잘못 계산하다", example: "Alex had miscalculated the jump.", inflected: "" },
+    { word: "plunge", part: "v.", meaning: "곤두박질치다", example: "He...would have plunged down to the pavement if his hands hadn't caught hold of the Union Jack.", inflected: "" },
+    { word: "retort", part: "v.", meaning: "쏘아붙이다, 반박하다", example: "\"The boy's quite mad,\" the woman retorted.", inflected: "" },
+    { word: "hoist", part: "v.", meaning: "들어 올리다", example: "Alex slid the window open and hoisted himself into the second office.", inflected: "" },
+    { word: "sentimental", part: "adj.", meaning: "감상적인, 정이 많은", example: "He had never thought of Ian Rider as a sentimental man.", inflected: "" },
+    { word: "dissemination", part: "n.", meaning: "살포, 유포", example: "NERVE POISONS – NEW METHODS OF CONCEALMENT AND DISSEMINATION", inflected: "" },
+    { word: "interrogation", part: "n.", meaning: "심문, 취조", example: "...the movement of uranium across Europe and interrogation techniques.", inflected: "" },
+    { word: "authorized", part: "adj.", meaning: "권한이 있는, 허가받은", example: "\"But I'm afraid we're not authorized to give you the answers.\"", inflected: "" },
+    { word: "ornate", part: "adj.", meaning: "화려하게 장식된", example: "...narrow windows in ornate wooden frames.", inflected: "" },
+    { word: "groggy", part: "adj.", meaning: "몽롱한, 비틀거리는", example: "\"How are you feeling? Not too groggy, I hope.\"", inflected: "" },
+    { word: "cover", part: "n.", meaning: "위장, 신분 위장용 조직", example: "In fact it doesn't exist … it's nothing more than a cover.", inflected: "" },
+    { word: "undercover", part: "adv./adj.", meaning: "잠입하여, 비밀리에", example: "He had been working undercover here in England, in Cornwall...", inflected: "" },
+    { word: "unparalleled", part: "adj.", meaning: "유례없는, 비할 데 없는", example: "It's an unparalleled act of generosity.", inflected: "" },
+    { word: "ruthless", part: "adj.", meaning: "무자비한", example: "The Government may think he's a saint, but there's a ruthless side to him too.", inflected: "" },
+    { word: "preposterous", part: "adj.", meaning: "터무니없는, 말도 안 되는", example: "The whole thing was so preposterous he almost wanted to laugh.", inflected: "" },
+    { word: "resourceful", part: "adj.", meaning: "임기응변에 능한, 수완 좋은", example: "\"You've already shown yourself to be extraordinarily brave and resourceful.\"", inflected: "" }
+  ]
+};
