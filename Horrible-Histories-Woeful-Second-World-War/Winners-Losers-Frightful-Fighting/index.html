@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영어 단어 학습</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+        :root { --primary: #360F5A; --bg: #11041D; --btn: #EBD8F7; --btn-hover: #D4B6E6; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background: linear-gradient(135deg, var(--primary), var(--bg));
+            color: white; min-height: 100vh;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            padding: 30px 20px; text-align: center;
+        }
+        h1 { font-size: 1.9rem; margin-bottom: 8px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .subtitle { font-size: 1.1rem; opacity: 0.9; margin-bottom: 40px; }
+        .menu { display: flex; flex-direction: column; gap: 16px; width: 100%; max-width: 340px; }
+        .menu a {
+            display: block; text-decoration: none; background: #FDFBF7; color: var(--primary);
+            padding: 26px 20px; border-radius: 16px; font-size: 1.3rem; font-weight: bold;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.35); transition: transform 0.15s, background 0.2s;
+        }
+        .menu a:hover { background: var(--btn); transform: translateY(-3px); }
+        .menu a .emoji { display: block; font-size: 2.2rem; margin-bottom: 8px; }
+        .menu a .desc { display: block; font-size: 0.9rem; font-weight: 400; color: #666; margin-top: 6px; }
+        .brand { margin-top: 44px; letter-spacing: 2px; color: var(--btn); opacity: 0.8; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1 id="title">영어 단어 학습</h1>
+    <div class="subtitle" id="subtitle"></div>
+
+    <div class="menu">
+        <a href="flashcards.html">
+            <span class="emoji">🃏</span>낱말카드
+            <span class="desc">단어를 카드로 넘기며 외우기</span>
+        </a>
+        <a href="quiz.html">
+            <span class="emoji">📝</span>퀴즈
+            <span class="desc">전체 만점 시 학습 완료 인증</span>
+        </a>
+    </div>
+
+    <div class="brand" id="brand">SueSooEnglish</div>
+
+    <script src="data.js"></script>
+    <script>
+        const CFG = window.VOCAB_DATA || {};
+        if (CFG.title)    document.getElementById('title').textContent = CFG.title;
+        if (CFG.subtitle) document.getElementById('subtitle').textContent = CFG.subtitle;
+        if (CFG.brand)    document.getElementById('brand').textContent = CFG.brand;
+        if (CFG.theme) {
+            const t = CFG.theme, r = document.documentElement.style;
+            if (t.primary)     r.setProperty('--primary', t.primary);
+            if (t.bg)          r.setProperty('--bg', t.bg);
+            if (t.button)      r.setProperty('--btn', t.button);
+            if (t.buttonHover) r.setProperty('--btn-hover', t.buttonHover);
+        }
+        if (CFG.title) document.title = CFG.title + " 영어 학습";
+    </script>
+</body>
+</html>
