@@ -1,0 +1,43 @@
+window.VOCAB_DATA = {
+  title:    "Close to Famous",
+  subtitle: "Ch.17 ~ Ch.19",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#4A7C59",
+    bg: "#1B2E20",
+    accent: "#A8D5BA",
+    button: "#E4F2E8",
+    buttonHover: "#D0E8D6"
+  },
+  words: [
+    { word: "convertible", part: "n.", meaning: "오픈카 (지붕이 접히는 차)", example: "...Miss Charleena zoomed down the road in her baby blue convertible.", inflected: "" },
+    { word: "razor wire", part: "phr.", meaning: "면도날 철조망", example: "Tall towers stood behind the razor wire fence.", inflected: "" },
+    { word: "be up for", part: "phr.", meaning: "(상·역할의) 후보에 오르다", example: "\"I was up for an Oscar for that role.\"", inflected: "was up for" },
+    { word: "what makes someone tick", part: "phr.", meaning: "그 사람을 움직이게 하는 것", example: "...where they're scared, what makes them tick...", inflected: "what makes them tick" },
+    { word: "ditch", part: "n.", meaning: "도랑, 배수구", example: "\"Kitty and Lester pulled my car out of a ditch once.\"", inflected: "" },
+    { word: "rev", part: "v.", meaning: "(엔진을) 공회전시키다, 부릉거리다", example: "She revved the motor.", inflected: "revved" },
+    { word: "toot", part: "v.", meaning: "(경적을) 빵 울리다", example: "She tooted her horn and drove off.", inflected: "" },
+    { word: "dinky", part: "adj.", meaning: "하찮게 작은 (구어)", example: "...some people out there that think a cupcake is some little, dinky thing.", inflected: "" },
+    { word: "hard and fast", part: "phr.", meaning: "(규칙이) 절대적인, 확고한", example: "There are three hard and fast rules for making a proper cupcake.", inflected: "" },
+    { word: "lumpy", part: "adj.", meaning: "덩어리진, 멍울이 생긴", example: "...not all at once or it will get lumpy.", inflected: "" },
+    { word: "in batches", part: "phr.", meaning: "여러 번에 나누어", example: "...add the flour mixture to the egg mixture in batches.", inflected: "" },
+    { word: "mussed", part: "adj.", meaning: "헝클어진", example: "Her hair was mussed.", inflected: "" },
+    { word: "nuzzle", part: "v.", meaning: "코를 비비다", example: "They nuzzled my hand.", inflected: "" },
+    { word: "lug", part: "v.", meaning: "무거운 것을 힘겹게 나르다", example: "...he came back lugging a machine \"for oxygen.\"", inflected: "lugging" },
+    { word: "canopy bed", part: "phr.", meaning: "캐노피 침대 (천장 덮개가 있는 침대)", example: "I walked over to the big canopy bed...", inflected: "" },
+    { word: "residence", part: "n.", meaning: "저택, 거주지 (격식)", example: "\"Miss Charleena's residence. This is Foster speaking.\"", inflected: "" },
+    { word: "agent", part: "n.", meaning: "(연예인) 매니저, 에이전트", example: "\"I'm Charleena's agent, Foster.\"", inflected: "" },
+    { word: "green light", part: "phr.", meaning: "(제작) 승인, 허가", example: "\"It's a green light if we can get Charleena attached.\"", inflected: "" },
+    { word: "attached", part: "adj.", meaning: "(배우가 작품에) 캐스팅된", example: "\"...if we can get Charleena attached.\"", inflected: "" },
+    { word: "tent-pole movie", part: "phr.", meaning: "스튜디오를 먹여 살리는 대형 흥행작", example: "\"It's a huge tent-pole movie that will drive the studio machine.\"", inflected: "" },
+    { word: "resent", part: "v.", meaning: "분개하다, 불쾌하게 여기다", example: "\"I deeply resent your tone!\"", inflected: "" },
+    { word: "crabby", part: "adj.", meaning: "심술궂은, 까칠한", example: "It was good to hear her sounding crabby again.", inflected: "" },
+    { word: "outlive", part: "v.", meaning: "~보다 오래 살다", example: "\"I imagine Charleena will outlive us all.\"", inflected: "" },
+    { word: "twitch", part: "v.", meaning: "씰룩거리다, 실룩이다", example: "Mama's nose twitched.", inflected: "" },
+    { word: "chug down", part: "phr.v.", meaning: "벌컥벌컥 들이켜다", example: "The biggest man burped, chugged down coffee.", inflected: "chugged down" },
+    { word: "he who hesitates is lost", part: "prov.", meaning: "망설이는 자가 놓친다", example: "\"He who hesitates is lost,\" Wayne told him.", inflected: "" },
+    { word: "swivel chair", part: "phr.", meaning: "회전의자", example: "There was a desk with a swivel chair...", inflected: "" },
+    { word: "sanctum", part: "n.", meaning: "성역, 아무나 못 들어가는 공간", example: "\"Welcome to the inner sanctum, Foster.\"", inflected: "" },
+    { word: "Bookmobile", part: "n.", meaning: "이동도서관 (버스)", example: "\"Welcome to the Bookmobile, Foster.\"", inflected: "" }
+  ]
+};
