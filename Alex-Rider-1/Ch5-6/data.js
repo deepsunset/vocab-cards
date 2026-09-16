@@ -1,0 +1,41 @@
+window.VOCAB_DATA = {
+  title:    "Alex Rider #1",
+  subtitle: "Ch.5-6",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#3730A3",
+    bg: "#1E1B4B",
+    accent: "#818CF8",
+    button: "#E0E7FF",
+    buttonHover: "#C7D2FE"
+  },
+  words: [
+    { word: "drizzle", part: "n.", meaning: "이슬비, 가랑비", example: "The rain was still falling, a thin drizzle that travelled horizontally in the wind.", inflected: "" },
+    { word: "rendezvous", part: "n.", meaning: "접선 장소, 만나기로 한 지점", example: "He had to be close to the last RV of the day – the last rendezvous point.", inflected: "" },
+    { word: "shingle", part: "n.", meaning: "(해변·길의) 자갈", example: "He was standing on a narrow track made up of loose grey shingle.", inflected: "" },
+    { word: "blister", part: "n.", meaning: "물집", example: "The 10-kilogram Bergen rucksack…had rubbed blisters on his back.", inflected: "" },
+    { word: "gash", part: "n.", meaning: "깊게 베인 상처", example: "His shoulder was bruised and there was a gash along the side of his neck.", inflected: "" },
+    { word: "camouflage", part: "n.", meaning: "위장(복)", example: "His camouflage outfit…fitted him badly.", inflected: "" },
+    { word: "exhaustion", part: "n.", meaning: "탈진, 극도의 피로", example: "He was close to exhaustion, he knew, almost too tired to feel how much pain he was in.", inflected: "" },
+    { word: "accommodate", part: "v.", meaning: "수용하다, 자리를 마련하다", example: "A fifth had been squeezed into one of them to accommodate Alex.", inflected: "" },
+    { word: "resent", part: "v.", meaning: "못마땅해하다, 분개하다", example: "Some of them may resent you being here.", inflected: "" },
+    { word: "make allowances for", part: "phr.", meaning: "~을 감안해 주다", example: "I can make allowances for you. You're a boy, not a man.", inflected: "" },
+    { word: "dismantle", part: "v.", meaning: "분해하다, 해체하다", example: "One dismantling and reassembling his gun.", inflected: "" },
+    { word: "close-cropped", part: "adj.", meaning: "짧게 깎은", example: "He was short and muscular with square shoulders and black, close-cropped hair.", inflected: "" },
+    { word: "taunt", part: "v.", meaning: "조롱하다, 놀리다", example: "Wolf did everything he could to taunt or humiliate him.", inflected: "" },
+    { word: "humiliate", part: "v.", meaning: "창피를 주다", example: "...everything he could to taunt or humiliate him.", inflected: "" },
+    { word: "sneering", part: "adj.", meaning: "비웃는, 경멸조의", example: "...he used the same sneering tone of voice.", inflected: "" },
+    { word: "mock-up", part: "n.", meaning: "실물 크기 모형", example: "The Killing House was a fake; a mock-up of an embassy.", inflected: "" },
+    { word: "hostage", part: "n.", meaning: "인질", example: "...used to train the SAS in the art of hostage release.", inflected: "" },
+    { word: "eerie", part: "adj.", meaning: "오싹한, 으스스한", example: "For Alex it was an eerie experience, tiptoeing behind the other four men.", inflected: "" },
+    { word: "neutralize", part: "v.", meaning: "무력화하다", example: "Fox and Eagle prepared to neutralize the trip-wire.", inflected: "" },
+    { word: "flailing", part: "adj.", meaning: "마구 휘저어대는", example: "His flailing left hand caught the wire.", inflected: "" },
+    { word: "stagger", part: "v.", meaning: "비틀거리며 걷다", example: "Ten minutes later he staggered out into the open.", inflected: "" },
+    { word: "sap", part: "v.", meaning: "(기력을) 빼앗다", example: "...and at the same time sapped the last of his strength.", inflected: "sapped" },
+    { word: "glum", part: "adj.", meaning: "시무룩한, 침울한", example: "The others watched, their faces glum.", inflected: "" },
+    { word: "postpone", part: "v.", meaning: "연기하다, 미루다", example: "...it'll allow me to postpone the Stormbreaker project.", inflected: "" },
+    { word: "summon up", part: "phr.v.", meaning: "(용기를) 내다, 끌어모으다", example: "...as he tried to summon up the courage to go.", inflected: "" },
+    { word: "acrid", part: "adj.", meaning: "매캐한, 코를 찌르는", example: "Then a wisp of acrid smoke twisted upwards in the air.", inflected: "" },
+    { word: "eavesdrop", part: "v.", meaning: "엿듣다", example: "The headphones are useful for eavesdropping.", inflected: "eavesdropping" }
+  ]
+};
