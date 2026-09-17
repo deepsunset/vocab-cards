@@ -1,0 +1,41 @@
+window.VOCAB_DATA = {
+  title:    "Close to Famous",
+  subtitle: "Ch.20 ~ Ch.25",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#4A7C59",
+    bg: "#1B2E20",
+    accent: "#A8D5BA",
+    button: "#E4F2E8",
+    buttonHover: "#D0E8D6"
+  },
+  words: [
+    { word: "rickety", part: "adj.", meaning: "흔들거리는, 삐걱거리는", example: "...past rickety stairs, to the kitchen.", inflected: "" },
+    { word: "parole", part: "n.", meaning: "가석방", example: "\"Wait till more of 'em get out on parole...\"", inflected: "" },
+    { word: "citizen's arrest", part: "phr.", meaning: "시민에 의한 현행범 체포", example: "\"One a these days I'm going to make a citizen's arrest!\"", inflected: "" },
+    { word: "freeloader", part: "n.", meaning: "빌붙어 사는 사람, 공짜로 얻어먹는 사람", example: "\"Those people are freeloaders—every last one of them.\"", inflected: "" },
+    { word: "scheme", part: "n.", meaning: "계략, 꿍꿍이", example: "\"You in on this scheme?\"", inflected: "" },
+    { word: "leaf through", part: "phr.v.", meaning: "(책장을) 훌훌 넘겨보다", example: "She leafed through it.", inflected: "" },
+    { word: "evaporate", part: "v.", meaning: "증발하다, 사라지다", example: "I wanted to evaporate like spit on a hot road.", inflected: "" },
+    { word: "grit", part: "n.", meaning: "근성, 투지", example: "\"You've got grit, smarts, courage, and heart.\"", inflected: "" },
+    { word: "sauté", part: "v.", meaning: "(기름에) 살짝 볶다", example: "I sautéed red peppers and red onions.", inflected: "sautéed" },
+    { word: "sneer", part: "v.", meaning: "비웃다, 조롱하듯 말하다", example: "...the guy...who sneered at me when I said I wanted chocolate.", inflected: "" },
+    { word: "apply oneself", part: "phr.", meaning: "(공부 등에) 전념하다, 노력을 쏟다", example: "\"If you applied yourself, Foster...\"", inflected: "applied yourself" },
+    { word: "dunce", part: "n.", meaning: "열등생, 둔한 아이", example: "\"People call me stupid, dumbo, and dunce.\"", inflected: "" },
+    { word: "pipsqueak", part: "n.", meaning: "하찮은 녀석, 꼬맹이", example: "\"A documentary filmmaker called pipsqueak?\"", inflected: "" },
+    { word: "phonics", part: "n.", meaning: "파닉스 (발음 중심 읽기 교수법)", example: "\"It's phonics, Foster!\"", inflected: "" },
+    { word: "critical care", part: "phr.", meaning: "중환자 치료, 집중 치료", example: "\"He's in critical care.\"", inflected: "" },
+    { word: "coma", part: "n.", meaning: "혼수상태", example: "\"They said on the news he's in a coma.\"", inflected: "" },
+    { word: "rerun", part: "n.", meaning: "재방송", example: "Sonny's show was in reruns.", inflected: "" },
+    { word: "breakthrough", part: "n.", meaning: "돌파구, 큰 진전", example: "You have a breakthrough and then you take twelve steps backward.", inflected: "" },
+    { word: "tipping point", part: "phr.", meaning: "전환점, 임계점", example: "\"I think we've hit the tipping point!\"", inflected: "" },
+    { word: "warden", part: "n.", meaning: "교도소장", example: "\"I'd like to speak to the warden.\"", inflected: "" },
+    { word: "fulfill", part: "v.", meaning: "(약속을) 이행하다", example: "\"This prison has made promises to this town that it hasn't fulfilled!\"", inflected: "" },
+    { word: "take one's fouls", part: "phr.", meaning: "비난·반칙을 감수하다", example: "\"If you're going to put yourself out there, be ready to take your fouls.\"", inflected: "take your fouls" },
+    { word: "loaded question", part: "phr.", meaning: "의도가 깔린 질문, 답하기 곤란한 질문", example: "That was a loaded question.", inflected: "" },
+    { word: "reel", part: "v.", meaning: "(낚싯줄을) 감다", example: "He yanked his pole, reeled it tighter.", inflected: "" },
+    { word: "out of the woodwork", part: "phr.", meaning: "어디선가 우르르 나타나는", example: "He'd have people coming out of the woodwork...", inflected: "" },
+    { word: "CO", part: "n.", meaning: "지휘관, 상관 (commanding officer)", example: "\"If I were his CO...\"", inflected: "" },
+    { word: "out of harm's way", part: "phr.", meaning: "안전한 곳으로", example: "...he'd carry a wounded friend out of harm's way.", inflected: "" }
+  ]
+};
