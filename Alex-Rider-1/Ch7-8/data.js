@@ -1,0 +1,40 @@
+window.VOCAB_DATA = {
+  title:    "Alex Rider #1",
+  subtitle: "Ch.7-8",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#3730A3",
+    bg: "#1E1B4B",
+    accent: "#818CF8",
+    button: "#E0E7FF",
+    buttonHover: "#C7D2FE"
+  },
+  words: [
+    { word: "idle", part: "v.", meaning: "(엔진이) 공회전하다", example: "But at eighty miles per hour, the engine was only idling.", inflected: "" },
+    { word: "sneer at", part: "phr.v.", meaning: "~을 비웃다, 우습게 보다", example: "This was a car that sneered at speed limits.", inflected: "" },
+    { word: "operative", part: "n.", meaning: "첩보원, 요원", example: "...there'd even been a woman – an MI6 operative – kissing him.", inflected: "" },
+    { word: "swathe", part: "n.", meaning: "길게 뻗은 구역, 넓은 띠", example: "...a swathe of rolling green hills and a cloudless sky.", inflected: "" },
+    { word: "quay", part: "n.", meaning: "부두, 선착장", example: "An old tug…pulled into the quay.", inflected: "" },
+    { word: "flaking", part: "adj.", meaning: "벗겨지는", example: "An old tug – tangled nets, smoke and flaking paint.", inflected: "" },
+    { word: "trespasser", part: "n.", meaning: "무단 침입자", example: "\"Trespassers will be shot,\" Alex muttered to himself.", inflected: "" },
+    { word: "scaffolding", part: "n.", meaning: "비계, 철골 구조물", example: "Arc lamps on scaffolding towers stood at regular intervals.", inflected: "" },
+    { word: "sprawling", part: "adj.", meaning: "제멋대로 뻗어 있는", example: "The Mercedes…continued up towards a fantastic, sprawling house.", inflected: "" },
+    { word: "claustrophobic", part: "adj.", meaning: "폐소공포를 느끼는, 답답한", example: "He was beginning to feel claustrophobic.", inflected: "" },
+    { word: "wonderment", part: "n.", meaning: "경이, 놀라움", example: "Alex gasped with a mixture of horror and wonderment.", inflected: "" },
+    { word: "shimmering", part: "adj.", meaning: "어른거리며 빛나는", example: "The main body of the creature was a shimmering, pulsating mass of white and mauve.", inflected: "" },
+    { word: "tentacle", part: "n.", meaning: "촉수", example: "Beneath it, a mass of tentacles covered with circular stingers twisted in the water.", inflected: "" },
+    { word: "writhe", part: "v.", meaning: "몸부림치다, 꿈틀거리다", example: "...its tentacles writhed against the glass.", inflected: "" },
+    { word: "repulsive", part: "adj.", meaning: "혐오스러운, 역겨운", example: "It was the single most awesome and repulsive thing Alex had ever seen.", inflected: "" },
+    { word: "immaculate", part: "adj.", meaning: "티 하나 없이 깔끔한", example: "In his immaculate and expensive black suit...", inflected: "" },
+    { word: "specimen", part: "n.", meaning: "표본, 견본", example: "...when I saw this specimen of Physalia physalis, I knew I had to capture it.", inflected: "" },
+    { word: "exquisite", part: "adj.", meaning: "(고통 등이) 극심한; 절묘한", example: "If you were to find yourself wrapped in those, it would be an exquisite death.", inflected: "" },
+    { word: "squirm", part: "v.", meaning: "꿈틀거리다, 불편하게 움직이다", example: "The grey eyes squirmed. \"I thought your name was Felix.\"", inflected: "" },
+    { word: "animated", part: "adj.", meaning: "활기 띤, 생기 넘치는", example: "As he had talked, Sayle had become more and more animated.", inflected: "" },
+    { word: "gruesome", part: "adj.", meaning: "섬뜩한, 소름 끼치는", example: "The scars were a gruesome shade of mauve.", inflected: "" },
+    { word: "cascade", part: "v.", meaning: "폭포처럼 쏟아져 내리다", example: "...the water, cascading ten metres through the air over a semi-naked statue...", inflected: "" },
+    { word: "bug", part: "n.", meaning: "도청 장치", example: "The bug was taped behind it, a black disc about the size of a ten pence piece.", inflected: "" },
+    { word: "surpass", part: "v.", meaning: "능가하다, 뛰어넘다", example: "...but the Stormbreaker had far surpassed it.", inflected: "" },
+    { word: "out of bounds", part: "phr.", meaning: "출입 금지 구역에", example: "He was out of bounds, on his own, snooping around...", inflected: "" },
+    { word: "snoop around", part: "phr.v.", meaning: "몰래 기웃거리다, 염탐하다", example: "...on his own, snooping around without any idea of what he was looking for.", inflected: "" }
+  ]
+};
