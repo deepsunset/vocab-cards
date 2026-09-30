@@ -1,0 +1,41 @@
+window.VOCAB_DATA = {
+  title:    "Alex Rider #1",
+  subtitle: "Ch.8-11",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#3730A3",
+    bg: "#1E1B4B",
+    accent: "#818CF8",
+    button: "#E0E7FF",
+    buttonHover: "#C7D2FE"
+  },
+  words: [
+    { word: "wobble", part: "v.", meaning: "흔들리다, 비틀거리다", example: "Wobbling, almost falling, he finally managed to trap it between his fingers.", inflected: "" },
+    { word: "snooker", part: "v.", meaning: "(스누커에서) 상대의 길을 막다", example: "You seem to have accidentally snookered me.", inflected: "" },
+    { word: "saliva", part: "n.", meaning: "침", example: "Saliva flecked Sayle's lips.", inflected: "" },
+    { word: "hurl", part: "v.", meaning: "세게 던지다", example: "He threw his billiard-cue over to Mr Grin, hurling it almost like a javelin.", inflected: "" },
+    { word: "sleek", part: "adj.", meaning: "매끈하고 세련된", example: "...this ridiculous man could have created anything so sleek and powerful.", inflected: "" },
+    { word: "inconsolable", part: "adj.", meaning: "위로할 수 없을 만큼 슬픈", example: "I would be inconsolable if you were accidentally shot and killed in the darkness.", inflected: "" },
+    { word: "precaution", part: "n.", meaning: "예방 조치", example: "As a last-minute precaution he locked the door and kept the key.", inflected: "" },
+    { word: "patrol", part: "v.", meaning: "순찰하다", example: "...two guards walked slowly across the garden, patrolling the back of the house.", inflected: "patrolling" },
+    { word: "gangly", part: "adj.", meaning: "키만 크고 비쩍 마른", example: "He was tall and gangly, silhouetted against the lights.", inflected: "" },
+    { word: "tarpaulin", part: "n.", meaning: "방수포", example: "The back was tall and square, covered with tarpaulin.", inflected: "" },
+    { word: "convoy", part: "n.", meaning: "(차량) 행렬, 수송대", example: "In all, a convoy of five vehicles left Sayle Enterprises.", inflected: "" },
+    { word: "jetty", part: "n.", meaning: "부두, 선창", example: "Mr Grin and the others had gathered beside an old stone jetty.", inflected: "" },
+    { word: "boulder", part: "n.", meaning: "큰 바위", example: "Alex crept forward and found a hiding-place behind a cluster of boulders.", inflected: "" },
+    { word: "dented", part: "adj.", meaning: "움푹 들어간", example: "He reached the box and ran his hands over it, checking the seal…The metal wasn't even dented.", inflected: "" },
+    { word: "indignant", part: "adj.", meaning: "분개한, 발끈한", example: "Alex was woken up by an indignant Nadia Vole knocking at his door.", inflected: "" },
+    { word: "draw a blank", part: "idiom", meaning: "아무 성과도 얻지 못하다", example: "...the one piece of information that he had sent…had also drawn a blank.", inflected: "drawn a blank" },
+    { word: "unnerving", part: "adj.", meaning: "불안하게 만드는", example: "There was something unnerving about the sight.", inflected: "" },
+    { word: "pervade", part: "v.", meaning: "(분위기가) 배어 있다, 스며들다", example: "...the strange sense of threat that pervaded Sayle Enterprises.", inflected: "" },
+    { word: "precariously", part: "adv.", meaning: "아슬아슬하게, 위태롭게", example: "...a track that zigzagged precariously along the edge of a cliff.", inflected: "" },
+    { word: "quaint", part: "adj.", meaning: "예스럽고 아담한", example: "It looked almost too quaint from here.", inflected: "" },
+    { word: "erupt", part: "v.", meaning: "갑자기 튀어나오다, 터져 나오다", example: "A bird suddenly erupted in front of him.", inflected: "" },
+    { word: "singe", part: "v.", meaning: "그을리다", example: "Alex felt it singe his shoulders, yelled and threw himself to one side.", inflected: "" },
+    { word: "garrotte", part: "v.", meaning: "목을 졸라 죽이다", example: "The man screamed as the wire caught him around the neck, almost garrotting him.", inflected: "" },
+    { word: "inevitable", part: "adj.", meaning: "피할 수 없는", example: "Just when it seemed that a crash was inevitable, he twisted his quad.", inflected: "" },
+    { word: "labyrinth", part: "n.", meaning: "미로", example: "...there was a labyrinth of shafts, tunnels and railway lines running for miles underground.", inflected: "" },
+    { word: "oppressive", part: "adj.", meaning: "숨 막히는, 답답한", example: "...the darkness seemed even thicker and more oppressive.", inflected: "" },
+    { word: "submerged", part: "adj.", meaning: "물에 잠긴", example: "The tunnel was completely submerged in water as black as ink.", inflected: "" }
+  ]
+};
