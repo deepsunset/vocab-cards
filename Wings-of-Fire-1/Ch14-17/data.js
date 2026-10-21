@@ -1,0 +1,40 @@
+window.VOCAB_DATA = {
+  title:    "Wings of Fire #1",
+  subtitle: "Ch.14-17",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#D84315",
+    bg: "#3D1400",
+    accent: "#FF7043",
+    button: "#FFE0D6",
+    buttonHover: "#FFC4B0"
+  },
+  words: [
+    { word: "spire", part: "n.", meaning: "뾰족하게 솟은 바위 기둥", example: "His prison cell was at the top of a towering spire of rock.", inflected: "" },
+    { word: "ravine", part: "n.", meaning: "깊고 좁은 협곡", example: "...a ravine half full of dragon bones.", inflected: "" },
+    { word: "sheer", part: "adj.", meaning: "깎아지른 듯한", example: "...with sand at the bottom and sheer walls.", inflected: "" },
+    { word: "sinuous", part: "adj.", meaning: "구불구불 휘어진", example: "...a sinuous curving shape with four branches...", inflected: "" },
+    { word: "tracery", part: "n.", meaning: "가느다란 장식 세공 무늬", example: "The gold tracery in the rocks and floor went over the top in here...", inflected: "" },
+    { word: "encrusted", part: "adj.", meaning: "(보석이) 빼곡히 박힌", example: "Queen Scarlet arched her ruby-encrusted eyebrows at him...", inflected: "" },
+    { word: "flimsy", part: "adj.", meaning: "허술하고 쉽게 끊어지는", example: "It looked flimsy and easy to break...", inflected: "" },
+    { word: "combatant", part: "n.", meaning: "결투에 나서는 자", example: "\"Bring in the combatants,\" she called.", inflected: "" },
+    { word: "contender", part: "n.", meaning: "출전자, 도전자", example: "I pick up lots of contenders for the arena from the battlefield.", inflected: "" },
+    { word: "muted", part: "adj.", meaning: "(반응이) 억눌린, 미지근한", example: "Clay noticed that the applause was muted...", inflected: "" },
+    { word: "deftly", part: "adv.", meaning: "능숙하고 날렵하게", example: "...deftly avoiding the wires as she looped around him...", inflected: "" },
+    { word: "feint", part: "v.", meaning: "공격하는 척 속임 동작을 하다", example: "...as Peril feinted around him.", inflected: "" },
+    { word: "brand", part: "v.", meaning: "불로 낙인을 찍다", example: "It looked as if she had branded him...", inflected: "" },
+    { word: "engulf", part: "v.", meaning: "(불길이) 완전히 집어삼키다", example: "Fire engulfed the poisoned tip...", inflected: "" },
+    { word: "keening", part: "adj.", meaning: "가늘고 길게 통곡하는", example: "...with a high-pitched keening sound.", inflected: "" },
+    { word: "billow", part: "v.", meaning: "(연기가) 뭉게뭉게 피어오르다", example: "Smoke billowed off the two dragons...", inflected: "" },
+    { word: "disfiguring", part: "adj.", meaning: "외형을 흉하게 망가뜨리는", example: "Disfiguring burns had melted his facial features...", inflected: "" },
+    { word: "blistering", part: "adj.", meaning: "살을 데일 듯 뜨거운", example: "...away from her blistering heat.", inflected: "" },
+    { word: "matter-of-factly", part: "adv.", meaning: "아무렇지 않은 담담한 투로", example: "\"No one else wants me,\" Peril said matter-of-factly.", inflected: "" },
+    { word: "hazard", part: "v.", meaning: "조심스럽게 (추측을) 내놓다", example: "\"They're a little unpredictable,\" he hazarded.", inflected: "" },
+    { word: "sidle", part: "v.", meaning: "슬금슬금 옆걸음질 치다", example: "Clay tried to sidle a bit closer to the edge...", inflected: "" },
+    { word: "queasy", part: "adj.", meaning: "속이 메스껍고 불편한", example: "He felt queasy and guilty.", inflected: "" },
+    { word: "crane", part: "v.", meaning: "(보려고) 목을 길게 빼다", example: "He craned his neck, looking for her among the prisoners...", inflected: "" },
+    { word: "plummet", part: "v.", meaning: "수직으로 곤두박질치다", example: "...dropped the bucket, which plummeted all the way down...", inflected: "" },
+    { word: "hubbub", part: "n.", meaning: "왁자지껄한 소란", example: "...a furious roar briefly silenced the hubbub.", inflected: "" },
+    { word: "misshapen", part: "adj.", meaning: "기형의, 제대로 생기지 않은", example: "That misshapen dragonet will be the perfect present for her.", inflected: "" }
+  ]
+};
