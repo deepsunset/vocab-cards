@@ -1,0 +1,40 @@
+window.VOCAB_DATA = {
+  title:    "Silent Spring",
+  subtitle: "Ch.16-17",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#2E2E2E",
+    bg: "#0D0D0D",
+    accent: "#B0B0B0",
+    button: "#F0F0F0",
+    buttonHover: "#D9D9D9"
+  },
+  words: [
+    { word: "astound", part: "v.", meaning: "깜짝 놀라게 하다", example: "IF DARWIN were alive today the insect world would delight and astound him...", inflected: "" },
+    { word: "weed out", part: "phr.v.", meaning: "걸러내다, 제거하다", example: "Under the stress of intensive chemical spraying the weaker members of the insect populations are being weeded out.", inflected: "" },
+    { word: "rhetorical", part: "adj.", meaning: "(답이 뻔한) 수사적인", example: "...A. L. Melander, asked the now purely rhetorical question, 'Can insects become resistant to sprays?'", inflected: "" },
+    { word: "advent", part: "n.", meaning: "출현, 도래", example: "But it was the advent of DDT and all its many relatives that ushered in the true Age of Resistance.", inflected: "" },
+    { word: "counterweapon", part: "n.", meaning: "대응 무기", example: "...insects possess an effective counterweapon to aggressive chemical attack...", inflected: "" },
+    { word: "specious", part: "adj.", meaning: "그럴듯하나 틀린", example: "...the present difficulties have been born of just such specious reasoning.", inflected: "" },
+    { word: "meteoric", part: "adj.", meaning: "급격한, 유성처럼 빠른", example: "...resistance began a meteoric rise that reached the alarming level of 137 species in 1960.", inflected: "" },
+    { word: "vector", part: "n.", meaning: "(병을 옮기는) 매개체", example: "The list of diseases and their insect carriers, or vectors, includes typhus and body lice...", inflected: "" },
+    { word: "setback", part: "n.", meaning: "후퇴, 차질", example: "...risks a serious setback unless this new problem can be rapidly mastered.", inflected: "" },
+    { word: "loath", part: "adj.", meaning: "꺼리는, 마음이 내키지 않는", example: "The chemical industry is perhaps understandably loath to face up to the unpleasant fact of resistance.", inflected: "" },
+    { word: "stockpile", part: "v.", meaning: "비축하다", example: "It is no longer possible to stockpile materials well in advance...", inflected: "" },
+    { word: "inherent", part: "adj.", meaning: "타고난, 본래 지닌", example: "The only survivors are insects that have some inherent quality that allows them to escape harm.", inflected: "" },
+    { word: "conceit", part: "n.", meaning: "오만, 자만", example: "Humbleness is in order; there is no excuse for scientific conceit here.", inflected: "" },
+    { word: "diverge", part: "v.", meaning: "갈라지다", example: "WE STAND NOW where two roads diverge.", inflected: "" },
+    { word: "deceptively", part: "adv.", meaning: "보기와 달리, 속임수처럼", example: "The road we have long been traveling is deceptively easy...", inflected: "" },
+    { word: "assert", part: "v.", meaning: "(권리를) 주장하다, 행사하다", example: "If, having endured much, we have at last asserted our 'right to know'...", inflected: "" },
+    { word: "unpretentious", part: "adj.", meaning: "소박한, 꾸밈없는", example: "It has its obscure and unpretentious beginning...", inflected: "" },
+    { word: "momentum", part: "n.", meaning: "추진력, 기세", example: "It gathers momentum with the work of many investigators...", inflected: "" },
+    { word: "recede", part: "v.", meaning: "멀어지다, 물러나다", example: "But the goal of an insect-free world continued to recede.", inflected: "" },
+    { word: "inertia", part: "n.", meaning: "타성, 무기력", example: "The proposal was met with bureaucratic inertia and with skepticism from scientists...", inflected: "" },
+    { word: "succumb", part: "v.", meaning: "굴복하다, 쓰러지다", example: "A full-grown steer may succumb to a heavy infestation in 10 days...", inflected: "" },
+    { word: "eradicate", part: "v.", meaning: "박멸하다", example: "The screw-worm had indeed been eradicated on Curaçao.", inflected: "" },
+    { word: "entrench", part: "v.", meaning: "확고히 자리 잡게 하다", example: "...the Southwest, where it is firmly entrenched.", inflected: "" },
+    { word: "spurious", part: "adj.", meaning: "가짜의", example: "...experiments aimed at deceiving the male into attempting to mate with a spurious female.", inflected: "" },
+    { word: "lure", part: "n.", meaning: "유인물, 유인 장치", example: "As little as one microgram in a trap is an effective lure.", inflected: "" },
+    { word: "arrogance", part: "n.", meaning: "오만", example: "The 'control of nature' is a phrase conceived in arrogance...", inflected: "" }
+  ]
+};
