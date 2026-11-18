@@ -1,0 +1,40 @@
+window.VOCAB_DATA = {
+  title:    "Esio Trot",
+  subtitle: "Part.1",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#4A7C59",
+    bg: "#1B2E20",
+    accent: "#A8D5BA",
+    button: "#E4F2E8",
+    buttonHover: "#D0E8D6"
+  },
+  words: [
+    { word: "jut out", part: "v.", meaning: "돌출하다, 튀어나오다", example: "The balcony immediately below Mr Hoppy's jutted out a good bit further...", inflected: "jutted out" },
+    { word: "a riot of colour", part: "idiom", meaning: "색채의 향연, 울긋불긋함", example: "...in summer the little balcony became a riot of colour.", inflected: "" },
+    { word: "long to do", part: "v.", meaning: "~하기를 갈망하다", example: "He longed to invite Mrs Silver up for a cup of tea...", inflected: "longed to invite" },
+    { word: "feat", part: "n.", meaning: "위업, 공적", example: "...if only he could perform some great feat...", inflected: "" },
+    { word: "thug", part: "n.", meaning: "폭력배, 깡패", example: "...rescuing her from a gang of armed thugs...", inflected: "" },
+    { word: "endearment", part: "n.", meaning: "애정 어린 말", example: "...Mrs Silver whispering endearments to Alfie...", inflected: "" },
+    { word: "absurdly", part: "adv.", meaning: "터무니없이, 우스꽝스러울 만큼", example: "...he felt absurdly jealous.", inflected: "" },
+    { word: "topple", part: "v.", meaning: "넘어지다, 굴러떨어지다", example: "...walk about without toppling over the edge...", inflected: "" },
+    { word: "hibernate", part: "v.", meaning: "동면하다", example: "...go to sleep for months on end... This is called hibernating.", inflected: "" },
+    { word: "electrify", part: "v.", meaning: "열광시키다, 짜릿하게 하다", example: "...something happened that changed and indeed electrified Mr Hoppy's life.", inflected: "" },
+    { word: "beam", part: "v.", meaning: "환하게 웃다", example: "...Mrs Silver said, looking up and beaming at him.", inflected: "" },
+    { word: "ache", part: "v.", meaning: "(마음이) 아리다, 쑤시다", example: "...his heart ached with love.", inflected: "" },
+    { word: "solemnly", part: "adv.", meaning: "엄숙하게, 자못 진지하게", example: "'...tortoises are very slow growers,' Mr Hoppy said solemnly.", inflected: "" },
+    { word: "titchy", part: "adj.", meaning: "(英 구어) 조그마한, 쪼끄만", example: "Try to think how miserable it must make him feel to be so titchy!", inflected: "" },
+    { word: "turn green with envy", part: "idiom", meaning: "몹시 샘내다, 질투로 배 아파하다", example: "If Alfie were to see those he'd turn green with envy!", inflected: "" },
+    { word: "spin like a fly-wheel", part: "idiom", meaning: "(머리가) 팽팽 돌아가다", example: "Mr Hoppy's mind was spinning like a fly-wheel.", inflected: "spinning like a fly-wheel" },
+    { word: "bedouin", part: "n.", meaning: "베두인족 (사막 유목민)", example: "...a bedouin tribesman told me the secret.", inflected: "" },
+    { word: "backward", part: "adj.", meaning: "뒤떨어진, 더딘 (※ '거꾸로'와의 말장난)", example: "Tortoises are very backward creatures.", inflected: "" },
+    { word: "bewildered", part: "adj.", meaning: "어리둥절한, 당황한", example: "'I suppose so,' Mrs Silver said, bewildered.", inflected: "" },
+    { word: "gorge", part: "v.", meaning: "게걸스럽게 먹다, 포식하다", example: "GORGE! GUZZLE! STUFF! GULP!", inflected: "" },
+    { word: "guzzle", part: "v.", meaning: "마구 먹어대다, 벌컥벌컥 들이켜다", example: "GORGE! GUZZLE! STUFF! GULP!", inflected: "" },
+    { word: "bliss", part: "n.", meaning: "더없는 행복, 황홀감", example: "Your slave for life, he kept repeating to himself. What bliss!", inflected: "" },
+    { word: "quiver", part: "v.", meaning: "떨리다, 가늘게 떨다", example: "...Mr Hoppy was simply quivering all over with excitement.", inflected: "" },
+    { word: "canvas", part: "n.", meaning: "캔버스 천, 범포", example: "...he went out and bought a sheet of thick canvas...", inflected: "" },
+    { word: "swarm", part: "v.", meaning: "떼지어 우글거리다", example: "The floor was swarming with tortoises of different sizes...", inflected: "" },
+    { word: "pick one's way", part: "idiom", meaning: "조심조심 발 디딜 곳을 골라 걷다", example: "Mr Hoppy had to pick his way carefully on his toes...", inflected: "pick his way" }
+  ]
+};
