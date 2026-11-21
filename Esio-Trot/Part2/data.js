@@ -1,0 +1,40 @@
+window.VOCAB_DATA = {
+  title:    "Esio Trot",
+  subtitle: "Part.2",
+  brand:    "SueSooEnglish",
+  theme: {
+    primary: "#4A7C59",
+    bg: "#1B2E20",
+    accent: "#A8D5BA",
+    button: "#E4F2E8",
+    buttonHover: "#D0E8D6"
+  },
+  words: [
+    { word: "armed with", part: "phr.", meaning: "~을 갖추고, ~으로 무장하고", example: "Mr Hoppy went out on to his balcony armed with his long metal pole.", inflected: "" },
+    { word: "bask", part: "v.", meaning: "(햇볕을) 쬐다", example: "Alfie was basking in the pale sunlight over to one side.", inflected: "" },
+    { word: "wiggle", part: "v.", meaning: "이리저리 꼼지락거리며 움직이다", example: "He wiggled the tortoise-catcher till it was right above Alfie.", inflected: "" },
+    { word: "haul", part: "v.", meaning: "끌어당기다, 끌어올리다", example: "He hauled Alfie up on to his own balcony.", inflected: "" },
+    { word: "tender", part: "adj.", meaning: "연한, 부드러운", example: "Tortoise Number 2 had never eaten tender juicy lettuce leaves before.", inflected: "" },
+    { word: "chomp", part: "v.", meaning: "우적우적 씹어 먹다", example: "The new tortoise was still chomping away at the lettuce.", inflected: "" },
+    { word: "with great gusto", part: "idiom", meaning: "아주 신나게, 열심히", example: "...started chomping away at it with great gusto.", inflected: "" },
+    { word: "peer", part: "v.", meaning: "유심히 보다, 살피다", example: "Mr Hoppy, peering over his railing, but well hidden between two huge potted plants...", inflected: "" },
+    { word: "foliage", part: "n.", meaning: "(식물의) 잎, 잎사귀들", example: "Mr Hoppy popped his head out of the foliage...", inflected: "" },
+    { word: "darkly", part: "adv.", meaning: "의미심장하게, 알쏭달쏭하게", example: "'You never know,' Mr Hoppy said darkly.", inflected: "" },
+    { word: "grow out of", part: "phr.v.", meaning: "(자라서) 옷 등이 작아지다", example: "...their mothers never notice it until they grow out of their clothes.", inflected: "" },
+    { word: "operation", part: "n.", meaning: "작전", example: "...Mrs Silver had hardly noticed anything at all during the great operation.", inflected: "" },
+    { word: "call a halt", part: "idiom", meaning: "중단하다, 멈추다", example: "But now perhaps it was time to call a halt...", inflected: "" },
+    { word: "startled", part: "adj.", meaning: "깜짝 놀란", example: "...a startled cry from the balcony below brought him outside fast.", inflected: "" },
+    { word: "grand", part: "adj.", meaning: "멋진, 훌륭한", example: "'Isn't he grand!'", inflected: "" },
+    { word: "a shade", part: "n.", meaning: "아주 약간, 조금", example: "...find one that was a shade smaller, so that it would just go through the door...", inflected: "" },
+    { word: "shrill", part: "adj.", meaning: "(목소리가) 날카로운, 새된", example: "...he heard Mrs Silver's shouts from below, shrill with excitement.", inflected: "" },
+    { word: "fling", part: "v.", meaning: "확 열어젖히다, (팔을) 휙 두르다", example: "He flung open his front door and flew down the stairs two at a time...", inflected: "flung" },
+    { word: "all of a twitter", part: "idiom", meaning: "몹시 들뜬, 안절부절못하는", example: "...Mr Hoppy was all of a twitter.", inflected: "" },
+    { word: "parlour", part: "n.", meaning: "거실, 응접실", example: "Seated in a comfortable armchair in Mrs Silver's parlour, sipping his tea...", inflected: "" },
+    { word: "get round to", part: "phr.v.", meaning: "(미루던 일을) 마침내 하다", example: "I didn't think you'd ever get round to asking me!", inflected: "" },
+    { word: "embrace", part: "v.", meaning: "껴안다, 포옹하다", example: "...the two of them stood up and embraced warmly in the middle of the room.", inflected: "" },
+    { word: "breathless", part: "adj.", meaning: "숨이 찬, 숨 가쁜", example: "'It's all due to Alfie,' Mrs Silver said, slightly breathless.", inflected: "" },
+    { word: "trace", part: "n.", meaning: "흔적, 자취", example: "...leaving not a leaf of cabbage nor a trace of tortoise.", inflected: "" },
+    { word: "reckon", part: "v.", meaning: "(~라고) 생각하다, 추정하다", example: "Roberta reckons that by now he must be about thirty years old.", inflected: "" },
+    { word: "make it", part: "idiom", meaning: "해내다, 성공하다", example: "But he made it in the end.", inflected: "made it" }
+  ]
+};
